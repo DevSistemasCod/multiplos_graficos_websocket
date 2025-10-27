@@ -1,0 +1,34 @@
+/* Container geral de todos os gráficos */
+#graficosContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+/* Cada bloco de dispositivo */
+.dispositivo {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  display: inline-block;
+  width: 400px;
+}
+
+/* Título de cada ESP32 */
+.dispositivo h3 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+/* Canvas dos gráficos */
+.dispositivo canvas {
+  display: block;
+  width: 400px !important;
+  height: 250px !important;
+  margin: 10px auto;
+}
+
