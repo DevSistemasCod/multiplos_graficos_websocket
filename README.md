@@ -1,1 +1,1 @@
-# multiplos_graficos_websocket
+# Solução com multiplos graficos apoiada em Websocket
